@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Open+Sans:ital,wght@0,400;0,500;0,700;1,700&family=Work+Sans:ital,wght@0,200;0,400;0,600;0,700;0,800;0,900;1,400;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans,sans-serif;
+}
+body{
+    background-color: rgba(245, 222, 179, 0.765);
+}
+/* ...style head section */
+
+.section-head{
+    display: flex;
+    justify-content: flex-end;
+    background-image: url('./images/banner/banner3.png');
+}
+.head{
+    width: 300px;
+    height: 400px;
+    
+    margin: 110px 150px;
+}
+.head h1{
+    color: #FFFFFF;
+    text-align: right;
+    font-weight: 800;
+    word-spacing: 10px;
+}
+.head p{
+    color: #ffffff74;
+    margin: 40px 0;
+    line-height: 24px;
+    text-align: right;
+}
+.head button{
+    border: 0;
+    padding: 15px 20px;
+    color:  #005FAC;
+    margin-left: 190px;
+    border-radius: 5px;
+    
+}
+/* ...header section end..... */
+/* ...main section strat... */
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 50px;
+    
+}
+.right-manu{
+    width: 300px;
+    height: 450px;
+    
+    margin-top: 300px;
+}
+.right-manu h3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 30px;
+
+}
+.right-manu p{
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 20px;
+}
+.right-manu ul{
+    list-style: none;
+}
+.right-manu ul li{
+    margin-top: 10px;
+    color: #444343;
+    
+}
+.plan{
+    background-color: rgba(128, 128, 128, 0.207);
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 8px;
+}
+.my-plan{   
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    text-align: center;
+}
+.my-plan h1{
+    margin-bottom: 40px;
+}
+.main-plan{
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 100%;
+    height: 200px;
+    
+}
+.plan h3{
+    margin: 16px 0;
+}
+.plan p{
+    color: #444343;
+}
+.image-container{
+    margin: 150px 200px;
+    border-radius: 8px;
+    height: 200px;
+    background-image: url('./images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    
+    
+}
+.image{
+    width: 100%;
+    height: 100%;
+   background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius:8px;
+
+}
+.image-container h3{
+    position: absolute;
+    top: 40px;
+    left: 62px;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 30px;
+}
+.image-container button{
+    color:#005FAC ;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 130px;
+    left: 62px;
+    padding: 16px 20px;
+    border: 0;
+    border-radius: 5px;
+    
+    
+}
+/* ...mian container end... */
+/* ...footer section strat... */
+footer{
+    border: 1px solid;
+    height: 400px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    text-align: right;
+    background-color: black;
+}
+.manu-left{
+    width: 200px;
+    height: 300px;
+    
+    margin: 50px 178px;
+    position: relative;
+
+}
+.left{
+    text-align: left;
+}
+.left h2{
+   margin: 15px 0; 
+   color: #FFFFFF;
+}
+.left p{
+    line-height: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.image-left{
+    width: 200px;
+    margin-left: 0;
+    position: absolute;
+    
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    
+
+.manu-right p{
+    color: #FFFFFF;
+}
+.manu-right{
+    margin:80px 178px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    text-align: left;
+}
+.manu-right input{
+    margin: 25px 0;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    color: #444343;
+}
+.manu-right button{
+    padding: 15px;
+    width:100px;
+    border: 0;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
